@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="5dp" android:id="@+id/parent_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/nama_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Man United"
+            android:textColor="#000"
+            android:textSize="23sp"
+            android:layout_toRightOf="@+id/gambar"/>
+
+        android:id="@+id/nama_m"
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jl. Cikarang - cibarusah KM 10 Desa Sukaragam Kec Serang baru"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_below="@+id/nama_m"
+            android:fontFamily="casual"
+            android:layout_toRightOf="@+id/gambar"/>
+
+        <TextView
+            android:id="@+id/idmadrasah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Man United"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textSize="10sp"
+            android:layout_alignParentRight="true"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_sakola"
+            android:id="@+id/gambar"/>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

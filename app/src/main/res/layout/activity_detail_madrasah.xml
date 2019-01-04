@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailMadrasah">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/nama_madrasah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Man United"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/alamat_madrasah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jl. Cikarang - cibarusah KM 10 Desa Sukaragam Kec Serang baru"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_below="@+id/nama_madrasah"
+            android:fontFamily="casual"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alamat_madrasah"
+            android:text="Buka di google maps"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/tombolmap"
+            android:backgroundTint="@color/colorPrimary"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
