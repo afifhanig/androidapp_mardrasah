@@ -40,7 +40,7 @@ public class RVadapter extends RecyclerView.Adapter<RVadapter.ViewHolder>  {
         final madrasah aliyah = listMadrasah.get(i);
         viewHolder.t3.setText(aliyah.getIdMadrasah());
         viewHolder.t1.setText(aliyah.getNamaMadrasah());
-        viewHolder.t2.setText(aliyah.getAlamat());
+        viewHolder.t2.setText(aliyah.getJmadrasah());
 
         viewHolder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,7 +70,7 @@ public class RVadapter extends RecyclerView.Adapter<RVadapter.ViewHolder>  {
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             t1=itemView.findViewById(R.id.nama_m );
-            t2=itemView.findViewById(R.id.alamat );
+            t2=itemView.findViewById(R.id.jenis );
             t3=itemView.findViewById(R.id.idmadrasah);
             parentLayout = itemView.findViewById(R.id.parent_layout);
 

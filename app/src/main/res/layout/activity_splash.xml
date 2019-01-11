@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/pic"
         android:textColor="#fff"
-        android:text="Muradif Madrasah Aliyah"
+        android:text="Daftar Madrasah Aliyah"
         android:textSize="30sp"
         android:layout_centerInParent="true"
         android:fontFamily="cursive"
